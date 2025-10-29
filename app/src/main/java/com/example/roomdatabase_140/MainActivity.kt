@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         val status = binding.status.selectedItem.toString()
 
         if (nama.isEmpty() || nik.isEmpty() || kabupaten.isEmpty() || kecamatan.isEmpty() || desa.isEmpty() || rt.isEmpty() || rw.isEmpty() || jenisKelamin.isEmpty() || status.isEmpty()) {
-            Toast.makeText(this, "Semua data berhasil dihapus!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Semua data harus diisi!", Toast.LENGTH_SHORT).show()
             return
         }
 
