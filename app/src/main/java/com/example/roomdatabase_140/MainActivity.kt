@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         // Setup Spinner
         val dropdown = binding.status
-        val items = arrayOf("Menikah", "Belum Menikah")
+        val items = arrayOf("Belum Menikah")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, items)
         dropdown.adapter = adapter
 
